@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open an issue on the monorepo
+    url: https://github.com/hecate-framework/hecate/issues/new/choose
+    about: hecate is developed in hecate-framework/hecate. Bugs, feature requests and design questions belong there.
+  - name: Report a vulnerability
+    url: https://github.com/hecate-framework/hecate/security/advisories/new
+    about: Report security problems privately. Never in a public issue.
