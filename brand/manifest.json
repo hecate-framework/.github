@@ -1,0 +1,316 @@
+{
+  "manifestVersion": 3,
+  "name": "hecate",
+  "namespace": "Hecate",
+  "files": [
+    "assets/Icons/README.md",
+    "assets/Logos/README.md",
+    "assets/Patterns/README.md",
+    "assets/Social/README.md",
+    "tokens.css"
+  ],
+  "libraries": [],
+  "components": [],
+  "assetGroups": [
+    {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "hecate-mark.svg",
+        "hecate-mark-on-dark.svg",
+        "hecate-mark-compact.svg",
+        "hecate-mark-compact-on-dark.svg",
+        "hecate-logo-horizontal.svg",
+        "hecate-logo-horizontal-on-dark.svg",
+        "hecate-logo-stacked.svg",
+        "hecate-logo-stacked-on-dark.svg",
+        "hecate-wordmark-smallcaps.svg",
+        "hecate-wordmark-smallcaps-on-dark.svg",
+        "hecate-wordmark-lowercase.svg",
+        "hecate-wordmark-lowercase-on-dark.svg",
+        "hecate-mark-mono-ink.svg",
+        "hecate-mark-mono-white.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Logos/hecate-mark.svg",
+          "id": "c0622cbfb74c90c04fce7cc5bffca167"
+        },
+        {
+          "path": "assets/Logos/hecate-mark-on-dark.svg",
+          "id": "73aaa87936ecfc49c98737e1d23bfb29"
+        },
+        {
+          "path": "assets/Logos/hecate-mark-compact.svg",
+          "id": "e62b211d4b58c59512a467070207f9b2"
+        },
+        {
+          "path": "assets/Logos/hecate-mark-compact-on-dark.svg",
+          "id": "592d5b4e423c4e41362a312b1bf84007"
+        },
+        {
+          "path": "assets/Logos/hecate-logo-horizontal.svg",
+          "id": "a64f7a08cfd3b0ad2309ab3821a830c6"
+        },
+        {
+          "path": "assets/Logos/hecate-logo-horizontal-on-dark.svg",
+          "id": "c2f953de674dae7abd699a062c560117"
+        },
+        {
+          "path": "assets/Logos/hecate-logo-stacked.svg",
+          "id": "f88e50c311658a628ab28b724de49cd8"
+        },
+        {
+          "path": "assets/Logos/hecate-logo-stacked-on-dark.svg",
+          "id": "f16c821c467cf4707c21cef1b7a34d4a"
+        },
+        {
+          "path": "assets/Logos/hecate-wordmark-smallcaps.svg",
+          "id": "7540fd320676a2027fe7bdca3fc3b736"
+        },
+        {
+          "path": "assets/Logos/hecate-wordmark-smallcaps-on-dark.svg",
+          "id": "2808fc5a4d64a675b1782322584fc4c4"
+        },
+        {
+          "path": "assets/Logos/hecate-wordmark-lowercase.svg",
+          "id": "ca742d3923f05c4ee56ee01a8582c296"
+        },
+        {
+          "path": "assets/Logos/hecate-wordmark-lowercase-on-dark.svg",
+          "id": "7be62440d6ad9929742f20cbbb61a1cb"
+        },
+        {
+          "path": "assets/Logos/hecate-mark-mono-ink.svg",
+          "id": "7a08766c9ff2438f6e5bd190e52f0b5c"
+        },
+        {
+          "path": "assets/Logos/hecate-mark-mono-white.svg",
+          "id": "98ad7be65638a27c9d75743234c18ee3"
+        }
+      ]
+    },
+    {
+      "name": "Icons",
+      "order": [
+        "favicon.svg",
+        "app-icon.svg",
+        "org-avatar.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Icons/favicon.svg",
+          "id": "9218ccec43b3d854b6b3333df1538c36"
+        },
+        {
+          "path": "assets/Icons/app-icon.svg",
+          "id": "4bfa9292c317c1b5f89149e65178e88b"
+        },
+        {
+          "path": "assets/Icons/org-avatar.svg",
+          "id": "5da9c70730784bdce0b7c6b43acffc84"
+        }
+      ]
+    },
+    {
+      "name": "Social",
+      "tile": "l",
+      "order": [
+        "github-social-preview.svg",
+        "og-card.svg",
+        "og-card-light.svg",
+        "readme-banner.svg",
+        "readme-banner-on-dark.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Social/github-social-preview.svg",
+          "id": "a06dcc0a3f28f443cde92e2ba9e52fe5"
+        },
+        {
+          "path": "assets/Social/og-card.svg",
+          "id": "f3505569e603b398290e11c5d59cd22f"
+        },
+        {
+          "path": "assets/Social/og-card-light.svg",
+          "id": "54d141486786f05ef7b1a40611f50156"
+        },
+        {
+          "path": "assets/Social/readme-banner.svg",
+          "id": "66caa8048baf77a7d4f0e09307e71bf5"
+        },
+        {
+          "path": "assets/Social/readme-banner-on-dark.svg",
+          "id": "bcecf6d067c249ce1b207ddae9c50466"
+        }
+      ]
+    },
+    {
+      "name": "Patterns",
+      "tile": "s",
+      "order": [
+        "pattern-trivium.svg",
+        "pattern-trivium-on-dark.svg"
+      ],
+      "files": [
+        {
+          "path": "assets/Patterns/pattern-trivium.svg",
+          "id": "f1124650b6dd78c1ec90510d01688f65"
+        },
+        {
+          "path": "assets/Patterns/pattern-trivium-on-dark.svg",
+          "id": "3bb9d04ca756c7485f97fa4a8a25effd"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Icons/app-icon.svg": {
+        "store": "blob",
+        "id": "4bfa9292c317c1b5f89149e65178e88b",
+        "bytes": 1030,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/favicon.svg": {
+        "store": "blob",
+        "id": "9218ccec43b3d854b6b3333df1538c36",
+        "bytes": 694,
+        "type": "image/svg+xml"
+      },
+      "assets/Icons/org-avatar.svg": {
+        "store": "blob",
+        "id": "5da9c70730784bdce0b7c6b43acffc84",
+        "bytes": 1032,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-logo-horizontal-on-dark.svg": {
+        "store": "blob",
+        "id": "c2f953de674dae7abd699a062c560117",
+        "bytes": 7297,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-logo-horizontal.svg": {
+        "store": "blob",
+        "id": "a64f7a08cfd3b0ad2309ab3821a830c6",
+        "bytes": 7297,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-logo-stacked-on-dark.svg": {
+        "store": "blob",
+        "id": "f16c821c467cf4707c21cef1b7a34d4a",
+        "bytes": 7775,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-logo-stacked.svg": {
+        "store": "blob",
+        "id": "f88e50c311658a628ab28b724de49cd8",
+        "bytes": 7775,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark-compact-on-dark.svg": {
+        "store": "blob",
+        "id": "592d5b4e423c4e41362a312b1bf84007",
+        "bytes": 643,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark-compact.svg": {
+        "store": "blob",
+        "id": "e62b211d4b58c59512a467070207f9b2",
+        "bytes": 643,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark-mono-ink.svg": {
+        "store": "blob",
+        "id": "7a08766c9ff2438f6e5bd190e52f0b5c",
+        "bytes": 894,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark-mono-white.svg": {
+        "store": "blob",
+        "id": "98ad7be65638a27c9d75743234c18ee3",
+        "bytes": 894,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark-on-dark.svg": {
+        "store": "blob",
+        "id": "73aaa87936ecfc49c98737e1d23bfb29",
+        "bytes": 905,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-mark.svg": {
+        "store": "blob",
+        "id": "c0622cbfb74c90c04fce7cc5bffca167",
+        "bytes": 905,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-wordmark-lowercase-on-dark.svg": {
+        "store": "blob",
+        "id": "7be62440d6ad9929742f20cbbb61a1cb",
+        "bytes": 8221,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-wordmark-lowercase.svg": {
+        "store": "blob",
+        "id": "ca742d3923f05c4ee56ee01a8582c296",
+        "bytes": 8221,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-wordmark-smallcaps-on-dark.svg": {
+        "store": "blob",
+        "id": "2808fc5a4d64a675b1782322584fc4c4",
+        "bytes": 7101,
+        "type": "image/svg+xml"
+      },
+      "assets/Logos/hecate-wordmark-smallcaps.svg": {
+        "store": "blob",
+        "id": "7540fd320676a2027fe7bdca3fc3b736",
+        "bytes": 7101,
+        "type": "image/svg+xml"
+      },
+      "assets/Patterns/pattern-trivium-on-dark.svg": {
+        "store": "blob",
+        "id": "3bb9d04ca756c7485f97fa4a8a25effd",
+        "bytes": 342,
+        "type": "image/svg+xml"
+      },
+      "assets/Patterns/pattern-trivium.svg": {
+        "store": "blob",
+        "id": "f1124650b6dd78c1ec90510d01688f65",
+        "bytes": 342,
+        "type": "image/svg+xml"
+      },
+      "assets/Social/github-social-preview.svg": {
+        "store": "blob",
+        "id": "a06dcc0a3f28f443cde92e2ba9e52fe5",
+        "bytes": 69686,
+        "type": "image/svg+xml"
+      },
+      "assets/Social/og-card-light.svg": {
+        "store": "blob",
+        "id": "54d141486786f05ef7b1a40611f50156",
+        "bytes": 71272,
+        "type": "image/svg+xml"
+      },
+      "assets/Social/og-card.svg": {
+        "store": "blob",
+        "id": "f3505569e603b398290e11c5d59cd22f",
+        "bytes": 71272,
+        "type": "image/svg+xml"
+      },
+      "assets/Social/readme-banner-on-dark.svg": {
+        "store": "blob",
+        "id": "bcecf6d067c249ce1b207ddae9c50466",
+        "bytes": 20493,
+        "type": "image/svg+xml"
+      },
+      "assets/Social/readme-banner.svg": {
+        "store": "blob",
+        "id": "66caa8048baf77a7d4f0e09307e71bf5",
+        "bytes": 20493,
+        "type": "image/svg+xml"
+      }
+    },
+    "blobBytesUsed": 322328
+  }
+}

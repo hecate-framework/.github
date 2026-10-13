@@ -1,0 +1,36 @@
+<!-- @dsCard height=288 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400&family=Fira+Sans:wght@400&display=swap">
+<style>
+  html, body { margin: 0; background: var(--surface-100); }
+  .cover { position: relative; width: 960px; height: 288px; overflow: hidden; background: var(--surface-100); }
+  .art { position: absolute; left: 0; top: 0; }
+  .moon { fill: var(--moon); }
+  .earth { fill: var(--earth); }
+  .lit { fill: var(--moonlight); }
+  .ink { fill: var(--ink); }
+  .text { position: absolute; left: 48px; bottom: 46px; max-width: 420px; }
+  .name { margin: 0; font-family: var(--font-serif); font-weight: 400; font-variant-caps: all-small-caps; font-size: 104px; line-height: .9; letter-spacing: 6px; color: var(--ink); }
+  .tagline { margin: 14px 0 0 4px; font-family: var(--font-sans); font-size: 14px; line-height: 20px; color: var(--ink-muted); }
+</style>
+<div class="cover">
+  <svg class="art" width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+    <!--
+      blocks: moon slab 224×288 (14 × space-4, full height), earth 240×136, ink 128×136, moonlight 96×136; gaps space-4 (16px)
+      arrangement: one tall moon slab, satellites bleeding off the top, right and bottom edges, all right of x = 480
+      pattern: literal motif (the conjunction) — the README's mark is an earth cropped at its corner and a small moon on one line, so the slab holds an earth disc cropped at its bottom-left corner and a moonlight disc on the diagonal
+      scales: space-4 (16) gaps, space-12 (48) text inset; earth r 150, moon r 20
+    -->
+    <rect class="moon" x="480" y="0" width="224" height="288"/>
+    <svg x="480" y="0" width="224" height="288" viewBox="0 0 224 288">
+      <circle class="earth" cx="0" cy="288" r="150"/>
+      <circle class="lit" cx="168" cy="64" r="20"/>
+    </svg>
+    <rect class="earth" x="720" y="0" width="240" height="136"/>
+    <rect class="ink" x="720" y="152" width="128" height="136"/>
+    <rect class="lit" x="864" y="152" width="96" height="136"/>
+  </svg>
+  <div class="text">
+    <h1 class="name">hecate</h1>
+    <p class="tagline">Contract-first web APIs for Lua 5.5.</p>
+  </div>
+</div>
